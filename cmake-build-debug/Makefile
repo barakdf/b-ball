@@ -123,32 +123,113 @@ b_ball/fast:
 	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/build
 .PHONY : b_ball/fast
 
-main.o: main.cpp.o
+Sources/Game.o: Sources/Game.cpp.o
 
-.PHONY : main.o
+.PHONY : Sources/Game.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/main.cpp.o
-.PHONY : main.cpp.o
+Sources/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Game.cpp.o
+.PHONY : Sources/Game.cpp.o
 
-main.i: main.cpp.i
+Sources/Game.i: Sources/Game.cpp.i
 
-.PHONY : main.i
+.PHONY : Sources/Game.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/main.cpp.i
-.PHONY : main.cpp.i
+Sources/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Game.cpp.i
+.PHONY : Sources/Game.cpp.i
 
-main.s: main.cpp.s
+Sources/Game.s: Sources/Game.cpp.s
 
-.PHONY : main.s
+.PHONY : Sources/Game.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/main.cpp.s
-.PHONY : main.cpp.s
+Sources/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Game.cpp.s
+.PHONY : Sources/Game.cpp.s
+
+Sources/League.o: Sources/League.cpp.o
+
+.PHONY : Sources/League.o
+
+# target to build an object file
+Sources/League.cpp.o:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/League.cpp.o
+.PHONY : Sources/League.cpp.o
+
+Sources/League.i: Sources/League.cpp.i
+
+.PHONY : Sources/League.i
+
+# target to preprocess a source file
+Sources/League.cpp.i:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/League.cpp.i
+.PHONY : Sources/League.cpp.i
+
+Sources/League.s: Sources/League.cpp.s
+
+.PHONY : Sources/League.s
+
+# target to generate assembly for a file
+Sources/League.cpp.s:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/League.cpp.s
+.PHONY : Sources/League.cpp.s
+
+Sources/Schedule.o: Sources/Schedule.cpp.o
+
+.PHONY : Sources/Schedule.o
+
+# target to build an object file
+Sources/Schedule.cpp.o:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o
+.PHONY : Sources/Schedule.cpp.o
+
+Sources/Schedule.i: Sources/Schedule.cpp.i
+
+.PHONY : Sources/Schedule.i
+
+# target to preprocess a source file
+Sources/Schedule.cpp.i:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Schedule.cpp.i
+.PHONY : Sources/Schedule.cpp.i
+
+Sources/Schedule.s: Sources/Schedule.cpp.s
+
+.PHONY : Sources/Schedule.s
+
+# target to generate assembly for a file
+Sources/Schedule.cpp.s:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Schedule.cpp.s
+.PHONY : Sources/Schedule.cpp.s
+
+Sources/Team.o: Sources/Team.cpp.o
+
+.PHONY : Sources/Team.o
+
+# target to build an object file
+Sources/Team.cpp.o:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Team.cpp.o
+.PHONY : Sources/Team.cpp.o
+
+Sources/Team.i: Sources/Team.cpp.i
+
+.PHONY : Sources/Team.i
+
+# target to preprocess a source file
+Sources/Team.cpp.i:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Team.cpp.i
+.PHONY : Sources/Team.cpp.i
+
+Sources/Team.s: Sources/Team.cpp.s
+
+.PHONY : Sources/Team.s
+
+# target to generate assembly for a file
+Sources/Team.cpp.s:
+	$(MAKE) -f CMakeFiles/b_ball.dir/build.make CMakeFiles/b_ball.dir/Sources/Team.cpp.s
+.PHONY : Sources/Team.cpp.s
 
 # Help Target
 help:
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... b_ball"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Sources/Game.o"
+	@echo "... Sources/Game.i"
+	@echo "... Sources/Game.s"
+	@echo "... Sources/League.o"
+	@echo "... Sources/League.i"
+	@echo "... Sources/League.s"
+	@echo "... Sources/Schedule.o"
+	@echo "... Sources/Schedule.i"
+	@echo "... Sources/Schedule.s"
+	@echo "... Sources/Team.o"
+	@echo "... Sources/Team.i"
+	@echo "... Sources/Team.s"
 .PHONY : help
 
 

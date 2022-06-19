@@ -82,7 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/main.cpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Game.cpp">
+			<Option target="b_ball"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Game.hpp">
+			<Option target="b_ball"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.cpp">
+			<Option target="b_ball"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.hpp">
+			<Option target="b_ball"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Schedule.cpp">
+			<Option target="b_ball"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Schedule.hpp">
+			<Option target="b_ball"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Team.cpp">
+			<Option target="b_ball"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Team.hpp">
 			<Option target="b_ball"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/b-ball/CMakeLists.txt">

@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/b_ball.dir/main.cpp.o"
+  "CMakeFiles/b_ball.dir/Sources/Game.cpp.o"
+  "CMakeFiles/b_ball.dir/Sources/League.cpp.o"
+  "CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o"
+  "CMakeFiles/b_ball.dir/Sources/Team.cpp.o"
   "b_ball"
   "b_ball.pdb"
 )

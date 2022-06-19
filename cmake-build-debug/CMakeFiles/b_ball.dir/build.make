@@ -57,30 +57,75 @@ include CMakeFiles/b_ball.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/b_ball.dir/flags.make
 
-CMakeFiles/b_ball.dir/main.cpp.o: CMakeFiles/b_ball.dir/flags.make
-CMakeFiles/b_ball.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/b_ball.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/b_ball.dir/main.cpp.o -c /mnt/c/Users/barak/Documents/GitHub/b-ball/main.cpp
+CMakeFiles/b_ball.dir/Sources/Team.cpp.o: CMakeFiles/b_ball.dir/flags.make
+CMakeFiles/b_ball.dir/Sources/Team.cpp.o: ../Sources/Team.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/b_ball.dir/Sources/Team.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/b_ball.dir/Sources/Team.cpp.o -c /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Team.cpp
 
-CMakeFiles/b_ball.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/b_ball.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/barak/Documents/GitHub/b-ball/main.cpp > CMakeFiles/b_ball.dir/main.cpp.i
+CMakeFiles/b_ball.dir/Sources/Team.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/b_ball.dir/Sources/Team.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Team.cpp > CMakeFiles/b_ball.dir/Sources/Team.cpp.i
 
-CMakeFiles/b_ball.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/b_ball.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/barak/Documents/GitHub/b-ball/main.cpp -o CMakeFiles/b_ball.dir/main.cpp.s
+CMakeFiles/b_ball.dir/Sources/Team.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/b_ball.dir/Sources/Team.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Team.cpp -o CMakeFiles/b_ball.dir/Sources/Team.cpp.s
+
+CMakeFiles/b_ball.dir/Sources/Game.cpp.o: CMakeFiles/b_ball.dir/flags.make
+CMakeFiles/b_ball.dir/Sources/Game.cpp.o: ../Sources/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/b_ball.dir/Sources/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/b_ball.dir/Sources/Game.cpp.o -c /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Game.cpp
+
+CMakeFiles/b_ball.dir/Sources/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/b_ball.dir/Sources/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Game.cpp > CMakeFiles/b_ball.dir/Sources/Game.cpp.i
+
+CMakeFiles/b_ball.dir/Sources/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/b_ball.dir/Sources/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Game.cpp -o CMakeFiles/b_ball.dir/Sources/Game.cpp.s
+
+CMakeFiles/b_ball.dir/Sources/League.cpp.o: CMakeFiles/b_ball.dir/flags.make
+CMakeFiles/b_ball.dir/Sources/League.cpp.o: ../Sources/League.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/b_ball.dir/Sources/League.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/b_ball.dir/Sources/League.cpp.o -c /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.cpp
+
+CMakeFiles/b_ball.dir/Sources/League.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/b_ball.dir/Sources/League.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.cpp > CMakeFiles/b_ball.dir/Sources/League.cpp.i
+
+CMakeFiles/b_ball.dir/Sources/League.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/b_ball.dir/Sources/League.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.cpp -o CMakeFiles/b_ball.dir/Sources/League.cpp.s
+
+CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o: CMakeFiles/b_ball.dir/flags.make
+CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o: ../Sources/Schedule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o -c /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Schedule.cpp
+
+CMakeFiles/b_ball.dir/Sources/Schedule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/b_ball.dir/Sources/Schedule.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Schedule.cpp > CMakeFiles/b_ball.dir/Sources/Schedule.cpp.i
+
+CMakeFiles/b_ball.dir/Sources/Schedule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/b_ball.dir/Sources/Schedule.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Schedule.cpp -o CMakeFiles/b_ball.dir/Sources/Schedule.cpp.s
 
 # Object files for target b_ball
 b_ball_OBJECTS = \
-"CMakeFiles/b_ball.dir/main.cpp.o"
+"CMakeFiles/b_ball.dir/Sources/Team.cpp.o" \
+"CMakeFiles/b_ball.dir/Sources/Game.cpp.o" \
+"CMakeFiles/b_ball.dir/Sources/League.cpp.o" \
+"CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o"
 
 # External object files for target b_ball
 b_ball_EXTERNAL_OBJECTS =
 
-b_ball: CMakeFiles/b_ball.dir/main.cpp.o
+b_ball: CMakeFiles/b_ball.dir/Sources/Team.cpp.o
+b_ball: CMakeFiles/b_ball.dir/Sources/Game.cpp.o
+b_ball: CMakeFiles/b_ball.dir/Sources/League.cpp.o
+b_ball: CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o
 b_ball: CMakeFiles/b_ball.dir/build.make
 b_ball: CMakeFiles/b_ball.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable b_ball"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable b_ball"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/b_ball.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

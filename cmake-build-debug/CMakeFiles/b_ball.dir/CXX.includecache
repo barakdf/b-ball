@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+algorithm
+-
+League.hpp
+/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.hpp
+random
+/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/random
+
+/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.hpp
+unordered_map
+-
+vector
+-
+map
+-
+Team.hpp
+/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Team.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Team.hpp
+iostream
+/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/iostream
+

@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/barak/Documents/GitHub/b-ball/main.cpp" "/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles/b_ball.dir/main.cpp.o"
+  "/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Game.cpp" "/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles/b_ball.dir/Sources/Game.cpp.o"
+  "/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/League.cpp" "/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles/b_ball.dir/Sources/League.cpp.o"
+  "/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Schedule.cpp" "/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles/b_ball.dir/Sources/Schedule.cpp.o"
+  "/mnt/c/Users/barak/Documents/GitHub/b-ball/Sources/Team.cpp" "/mnt/c/Users/barak/Documents/GitHub/b-ball/cmake-build-debug/CMakeFiles/b_ball.dir/Sources/Team.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
